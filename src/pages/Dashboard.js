@@ -146,11 +146,6 @@ const Dashboard = () => {
 </div>
 
 
-
-
-
-
-
 <div className="form_input">
 <label for="start-time">Start Date</label>
 <div class="date-picker-input">
@@ -165,7 +160,6 @@ const Dashboard = () => {
   <input type="date" id="select-date"/></div>
 
 </div>
-
 
             {/* <div className="form_input">Maximum number of hours per reservation
               <label htmlFor="password">Password</label>
