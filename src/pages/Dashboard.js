@@ -147,27 +147,24 @@ const Dashboard = () => {
 
 
 
-<div class="form-group">
-  <label for="start-time">Start Date</label>
-  <div class="input-group date" id="start-time-picker" data-target-input="nearest">
-    <input type="text" name="start_time" id="start-time" class="form-control datetimepicker-input" data-target="#start-time-picker"/>
-    <div class="input-group-append" data-target="#start-time-picker" data-toggle="datetimepicker">
-      <div class="input-group-text"><i class="fas fa-clock"></i></div>
-    </div>
-  </div>
-</div>
 
-<div class="form-group">
-  <label for="end-time">End Date</label>
-  <div class="input-group date" id="end-time-picker" data-target-input="nearest">
-    <input type="text" name="end_time" id="end-time" class="form-control datetimepicker-input" data-target="#end-time-picker"/>
-    <div class="input-group-append" data-target="#end-time-picker" data-toggle="datetimepicker">
-      <div class="input-group-text"><i class="fas fa-clock"></i></div>
-    </div>
-  </div>
+
+
+
+<div className="form_input">
+<label for="start-time">Start Date</label>
+<div class="date-picker-input">
+  <input type="date" id="select-date"/></div>
+
 </div>
 
 
+<div className="form_input">
+<label for="start-time">End Date</label>
+<div class="date-picker-input">
+  <input type="date" id="select-date"/></div>
+
+</div>
 
 
             {/* <div className="form_input">Maximum number of hours per reservation
